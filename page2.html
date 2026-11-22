@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciept generator</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <style>
+        img{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu</h1>
+    <input type="checkbox" id="item1" value="129">
+    <label id="item1-label">Mocha</label>
+    <br>
+        <input type="checkbox" id="item2" value="110">
+    <label id="item2-label">Cappuccino</label>
+    <br>
+        <input type="checkbox" id="item3" value="100">
+    <label id="item3-label">Americano</label>
+    <br>
+        <input type="checkbox" id="item4" value="99">
+    <label id="item4-label">Latte</label>
+    <br>
+    <input type="checkbox" id="item5" value="128">
+    <label id="item5-label">Affogato</label>
+
+ <br>
+ <button type="order" py-click = "create_order" value="0">Create order</button>
+ <div id="show-tax">[]</div>
+ <div id="show-subtotal">[]</div>
+ <div id="show-total">[]</div>
+<script type="py" src="page2.py"></script>
+<br>
+<p>Go back?</p>
+<a href="index.html">
+<img src="https://i.pinimg.com/736x/2a/62/22/2a622239e812f9a7b1b54ef1fefe2766.jpg">
+   
+    
+</body>
+</html>
+
+
